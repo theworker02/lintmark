@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/lintmark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lint lightweight mark statistics from stdin samples.",
+  "bin": {
+    "lintmark": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/lintmark.git"
+  },
+  "homepage": "https://theworker02.github.io/lintmark/",
+  "keywords": [
+    "lint",
+    "mark",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
